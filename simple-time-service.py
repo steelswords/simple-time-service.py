@@ -3,8 +3,8 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import time
 
-host = "localhost"
-port = 8088
+host = "0.0.0.0"
+port = 8086
 
 class SimpleTimeServer(BaseHTTPRequestHandler):
     def do_GET(self):
